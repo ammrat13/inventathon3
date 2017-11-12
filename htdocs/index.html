@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Pulse-Ox Glove</title>
+		<meta charset="utf-8"> 
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<center><h1>Pulse-Ox Glove</h1></center>
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<h2>Login:</h2>
+					<form action="login_val.php" method="POST">
+						<div class="form-group">
+							<label for="uname">Username:</label>
+							<input type="text" class="form-control" id="uname" name="uname"/>
+						</div>
+						<div class="form-group">
+							<label for="pass">Password:</label>
+							<input type="password" class="form-control" id="pass" name="pass"/>
+						</div>
+						<input type="submit" class="btn btn-default"/>
+					</form>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<h2>Share Code:</h2>
+					<form action="login_val_code.php" method="POST">
+						<div class="form-group">
+							<label for="code">Code:</label>
+							<input type="text" class="form-control" id="code" name="code"/>
+						</div>
+						<input type="submit" class="btn btn-default"/>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
